@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaHome, FaUser, FaBriefcase, FaInfoCircle } from "react-icons/fa";
+import { FaHome, FaUser, FaBriefcase, FaInfoCircle, FaClipboardList, FaHeart } from "react-icons/fa";
 
 const LeftSidebar = () => {
   return (
@@ -17,6 +17,15 @@ const LeftSidebar = () => {
         </Link>
         <Link to="/profile" className="flex items-center gap-2 text-lg hover:text-blue-400">
           <FaUser /> Profile
+        </Link>
+        <Link to="/catalog" className="flex items-center gap-2 text-lg hover:text-blue-400">
+          📦 Catalog
+        </Link>
+        <Link to="/comparison" className="flex items-center gap-2 text-lg hover:text-blue-400">
+          <FaClipboardList /> Comparison Cart
+        </Link>
+        <Link to="/wishlist" className="flex items-center gap-2 text-lg hover:text-blue-400">
+          <FaHeart /> Wishlist
         </Link>
       </nav>
     </div>
