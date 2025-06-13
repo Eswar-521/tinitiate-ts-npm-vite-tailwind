@@ -86,6 +86,8 @@ const Profile: React.FC = () => {
     following: 567
   });
 
+  console.log(setProfileData);
+
   const skills = [
     { name: "React", level: 90, color: "from-blue-400 to-cyan-400" },
     { name: "TypeScript", level: 85, color: "from-purple-400 to-pink-400" },

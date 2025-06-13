@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
 
+import { useState, useEffect } from "react";
 const products = Array.from({ length: 100 }, (_, i) => ({
   id: i + 1,
   name: `Product ${i + 1}`,
