@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       {/* HERO SECTION */}
-      <section className="bg-blue-600 text-white text-center py-20">
+      <section className="bg-gradient-to-r from-red-500 via-yellow-400text-white text-center py-20">
         <h1 className="text-4xl font-bold">Welcome </h1>
         <p className="text-lg mt-2">Explore, Compare, and with Ease</p>
         <div className="mt-6">

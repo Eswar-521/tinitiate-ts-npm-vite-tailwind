@@ -1,16 +1,29 @@
 import { Link } from "react-router-dom";
-import { FaHome, FaUser, FaBriefcase, FaInfoCircle } from "react-icons/fa";
+import { FaHome, FaUser, FaBriefcase, FaInfoCircle, FaNodeJs, FaTools, FaWind, FaCode } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 
 const Header = () => {
   return (
     <header className="bg-gradient-to-r from-red-500 via-yellow-400 via-green-400 via-blue-400 to-purple-500 text-white shadow-lg">
-      <div className="container mx-auto px-4 py-4">
-        {/* Centered title with rainbow-colored words */}
-        <h1 className="text-3xl sm:text-4xl font-extrabold text-center mb-4 drop-shadow-md">
-          <span className="text-lightred-200">ts</span>
-          <span className="text-yellow-200">-npm</span>
-          <span className="text-green-200">-vite</span>
-          <span className="text-blue-200">-tailwind</span>
+      <div className="container mx-auto px-4 py-6 flex flex-col items-center">
+        {/* Title with icons */}
+        <h1 className="flex flex-wrap justify-center items-center gap-3 text-3xl sm:text-4xl font-extrabold text-center mb-4 drop-shadow-md">
+          <span className="flex items-center gap-1 text-lightred-200">
+            <SiTypescript />
+            ts
+          </span>
+          <span className="flex items-center gap-1 text-yellow-100">
+            <FaTools />
+            npm
+          </span>
+          <span className="flex items-center gap-1 text-green-200">
+            <FaNodeJs />
+            vite
+          </span>
+          <span className="flex items-center gap-1 text-blue-200">
+            <FaWind />
+            tailwind
+          </span>
         </h1>
 
         {/* Navigation */}
