@@ -42,5 +42,3 @@ Click the links below to open each guide.
 
 ---
 
-## 📄 License
-Free for learning & development.
